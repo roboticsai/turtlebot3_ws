@@ -22,6 +22,7 @@ export TURTLEBOT3_MODEL=burger
 
 After we have launched the navigation stack, initially the robot has to localize itself in the map. For that manually we can do this:
 1. In rviz click 2d pose estimation and click in the correct location of turtlebot3   real world location in map. Also drag the arrow head to direction of turtlebot3 face.
+![Image of Yaktocat](https://github.com/roboticsai/turtlebot3_ws/blob/master/Docs/Images/2d_pose_estimate.png)
 2. Than move the robot with teleop key node. 
 After this we can click any location in map and turtlebot3 will go their itself.
 
