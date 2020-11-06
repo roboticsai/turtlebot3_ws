@@ -24,6 +24,8 @@ After we have launched the navigation stack, initially the robot has to localize
 2. Than move the robot with teleop key node. 
 After this we can click any location in map and turtlebot3 will go their itself.
 
+This repo used robot_localization ekf node for location purpose.
+
 References: 
 1. https://emanual.robotis.com/docs/en/platform/turtlebot3/navigation/#ros-1-navigation
 2. https://automaticaddison.com/how-to-launch-the-turtlebot3-simulation-with-ros/
