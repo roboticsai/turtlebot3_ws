@@ -1,4 +1,5 @@
 This repository contains ros modules which can be used to test the slam and navigation stack of ROS1. 
+![Image of Yaktocat](https://github.com/roboticsai/turtlebot3_ws/blob/master/Docs/Images/48-turtlebotsJPG.jpg)
 1. Choose which robot you want to use, options are burger, waffle and waffle pi. For this put this line in .bashrc file:
 export TURTLEBOT3_MODEL=burger
 2. To launch the turtlebot3 in gazebo:
