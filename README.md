@@ -1,4 +1,19 @@
-This repository contains ros modules which can be used to test the slam and navigation stack of ROS1. 
+This repository contains ros modules which can be used to test the slam and navigation stack of ROS1. Turtlebot robots are developed for academic and research purpose. 
+![Image of Yaktocat](https://github.com/roboticsai/turtlebot3_ws/blob/master/Docs/Images/48-turtlebotsJPG.jpg)
+
+Requirments:
+1. Ubuntu 18.04
+2. ROS melodic desktop full installed
+
+To build this modules:
+1. Clone and build the hole workspace
+   git clone https://github.com/roboticsai/turtlebot3_ws.git
+2. Build with catkin_make
+   cd turtlebot3_ws
+   catkin_make
+3. Source the workspace
+   source devel/setup.bash
+To run the different nodes follow below instructions:   
 1. Choose which robot you want to use, options are burger, waffle and waffle pi. For this put this line in .bashrc file:
 export TURTLEBOT3_MODEL=burger
 2. To launch the turtlebot3 in gazebo:
@@ -21,6 +36,7 @@ export TURTLEBOT3_MODEL=burger
 
 After we have launched the navigation stack, initially the robot has to localize itself in the map. For that manually we can do this:
 1. In rviz click 2d pose estimation and click in the correct location of turtlebot3   real world location in map. Also drag the arrow head to direction of turtlebot3 face.
+![Image of Yaktocat](https://github.com/roboticsai/turtlebot3_ws/blob/master/Docs/Images/2d_pose_estimate.png)
 2. Than move the robot with teleop key node. 
 After this we can click any location in map and turtlebot3 will go their itself.
 
