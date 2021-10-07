@@ -82,16 +82,6 @@
   </gazebo>
 
   <gazebo>
-    <plugin filename="libhector_gazebo_ros_magnetic.so" name="libhector_gazebo_ros_magnetic">
-        <robotNamespace>waffle</robotNamespace> 
-        <bodyName>base_link</bodyName> 
-        <topicName>compass</topicName> 
-        <updateRate>200</updateRate> 
-	<useMagneticFieldMsgs>true</useMagneticFieldMsgs>
-    </plugin>
-  </gazebo>
-
-  <gazebo>
     <plugin name="imu_plugin" filename="libgazebo_ros_imu.so">
       <alwaysOn>true</alwaysOn>
       <bodyName>imu_link</bodyName>
@@ -99,7 +89,7 @@
       <topicName>imu</topicName>
       <serviceName>imu_service</serviceName>
       <gaussianNoise>0.0</gaussianNoise>
-      <updateRate>200</updateRate>
+      <updateRate>0</updateRate>
       <imu>
         <noise>
           <type>gaussian</type>
